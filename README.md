@@ -35,9 +35,9 @@ To understand yield at the biological level, we need to extract traits (like hea
 ### Visual Results: Image Segmentation
 The images below demonstrate the DeepLabV3+ model's ability to take raw field images, compare them to ground truth annotations, and generate accurate predicted masks.
 
-![Segmentation Example 1](assets/segmentation_example_0.jpg)
-![Segmentation Example 2](assets/segmentation_example_1.jpg)
-![Segmentation Example 3](assets/segmentation_example_2.jpg)
+![Segmentation Example 1](assets/segmentation_example_0.png)
+![Segmentation Example 2](assets/segmentation_example_1.png)
+![Segmentation Example 3](assets/segmentation_example_2.png)
 
 ---
 
