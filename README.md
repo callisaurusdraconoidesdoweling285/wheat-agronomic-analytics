@@ -4,7 +4,7 @@
 ## 📖 Executive Summary
 Wheat contributes to ~20% of global calories and over A$10 billion annually to the Australian economy, yet yield outcomes are highly sensitive to complex, non-linear interactions between climate, cultivars, and management practices. 
 
-This project bridges the gap between regional environmental data and micro-level plant traits. I developed a dual-pipeline data science system featuring a **Machine Learning yield forecasting model** and a **Computer Vision organ segmentation tool**, wrapped into an interactive dashboard to drive actionable agricultural decision-making.
+This data science project bridges the gap between regional environmental data and micro-level plant traits. I developed a dual-pipeline system featuring a **Machine Learning yield forecasting model** and a **Computer Vision organ segmentation tool**, wrapped into an interactive dashboard to drive actionable agricultural decision-making.
 
 ## 🛠️ Technical Stack
 * **Languages:** Python
@@ -23,28 +23,38 @@ Traditional simulation models often fail to capture complex environmental relati
 * **Key Achievements:** * Handled severe data imbalances and high-dimensionality weather data through robust preprocessing and feature engineering.
   * Identified **Random Forest** as the optimal baseline model, providing highly accurate predictions while maintaining critical feature interpretability for stakeholders.
 
+---
+
 ## 👁️ Pipeline 2: Fine-Grained Plant Phenotyping (Computer Vision)
 To understand yield at the biological level, we need to extract traits (like head-leaf ratio or stem density) directly from field imagery.
 
 * **Objective:** Perform precise semantic segmentation on field images to classify pixels into four categories: Background, Wheat Head, Stem, and Leaf.
 * **Architectures Built:** U-Net, SegFormer, and DeepLabV3+.
 * **Key Achievements:**
-  * Successfully trained deep learning models to identify intricate plant structures.
-  * Fine-tuned **DeepLabV3+**, which delivered the highest accuracy and proved especially robust at identifying heavily imbalanced minority classes (e.g., wheat stems).
+  * Fine-tuned **DeepLabV3+** delivered the highest overall accuracy.
+  * Successfully overcame severe class imbalance, proving highly robust at identifying thin, difficult-to-segment minority classes like wheat stems.
 
 ### Visual Results: Image Segmentation
-The images below demonstrate the DeepLabV3+ model's ability to take raw field images, compare them to ground truth annotations, and generate accurate predicted masks.
+The sample outputs below highlight the DeepLabV3+ model's accuracy on unseen test data. 
 
-![Segmentation Example 1](assets/segmentation_example_0.png)
-![Segmentation Example 2](assets/segmentation_example_1.png)
-![Segmentation Example 3](assets/segmentation_example_2.png)
+![Segmentation Example 1](assets/segmentation_example_0.jpg)
+![Segmentation Example 2](assets/segmentation_example_1.jpg)
+![Segmentation Example 3](assets/segmentation_example_2.jpg)
+
+**Understanding the Visuals:**
+* **Left Panel (Input):** The raw RGB field image of the wheat crop.
+* **Middle Panel (Ground Truth):** The human-annotated mask indicating the exact location of the wheat heads (green), stems (orange), and leaves (blue).
+* **Right Panel (Prediction):** The model's generated output. As demonstrated, the model successfully distinguishes between overlapping plant organs and effectively isolates the thin stem structures, which is traditionally a highly challenging task in agricultural computer vision.
 
 ---
 
-## 💡 Business Impact & Future Scope
-* **Decision Dashboard:** Synthesized the outputs into a decision-making dashboard, allowing non-technical agricultural stakeholders to analyze crop data easily.
-* **Scalability:** The system is designed to eventually integrate CV-derived phenotypic traits directly into the ML yield models for a fully unified, multi-modal forecasting engine.
-* **Data Governance:** Ensured full compliance with institutional and open-data agreements (NVT/SILO), utilizing localized and HPC processing to guarantee data privacy.
+## 📊 Interactive Decision Dashboard
+To translate these complex agronomic models into actionable insights, I developed an interactive Tableau dashboard. The dashboard allows stakeholders to explore yield predictions alongside environmental factors and cultivar performance visually.
+
+* **View the Dashboard File:** [Download the Tableau Workbook (.twbx)](dashboard/your_tableau_file_name.twbx)
+* **Watch the Walkthrough:** Click the preview below to watch a full demonstration of the dashboard's features and decision-making capabilities.
+
+[![Dashboard Preview](assets/dashboard_preview.gif)](INSERT_YOUR_YOUTUBE_OR_DRIVE_LINK_HERE)
 
 ---
 *Project completed as part of the Master of Data Science program at The University of Queensland.*
