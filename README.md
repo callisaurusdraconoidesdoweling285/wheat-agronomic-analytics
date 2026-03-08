@@ -51,6 +51,15 @@ The sample outputs below highlight the DeepLabV3+ model's accuracy on unseen tes
 ## 📊 Interactive Decision Dashboard
 To translate these complex agronomic models into actionable insights, I developed an interactive Tableau dashboard. The dashboard allows stakeholders to explore yield predictions alongside environmental factors and cultivar performance visually.
 
+---
+
+## 🔐 Data Governance & Credits
+This project utilizes high-fidelity agricultural and meteorological datasets under institutional and open-data agreements:
+
+* **Yield Data:** Sourced from the **National Variety Trials (NVT)**, providing plot-level harvest metrics across diverse Australian growing regions.
+* **Weather Data:** Climate records, including solar radiation and evapotranspiration, were provided by the **SILO database (Scientific Information for Land Owners)**, managed by the Queensland Government.
+* **Privacy & Ethics:** All data processing was conducted in compliance with UQ data governance policies. Sensitive datasets were processed locally or via the **Rangpur HPC cluster** to ensure secure data handling and privacy.
+
 ### Dashboard Demonstration
 Below is a walkthrough of the interactive features, including regional yield filtering and cultivar performance analysis:
 
