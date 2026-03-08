@@ -37,9 +37,9 @@ To understand yield at the biological level, we need to extract traits (like hea
 ### Visual Results: Image Segmentation
 The sample outputs below highlight the DeepLabV3+ model's accuracy on unseen test data. 
 
-![Segmentation Example 1](assets/segmentation_example_0.jpg)
-![Segmentation Example 2](assets/segmentation_example_1.jpg)
-![Segmentation Example 3](assets/segmentation_example_2.jpg)
+![Segmentation Example 1](assets/segmentation_example_0.png)
+![Segmentation Example 2](assets/segmentation_example_1.png)
+![Segmentation Example 3](assets/segmentation_example_2.png)
 
 **Understanding the Visuals:**
 * **Left Panel (Input):** The raw RGB field image of the wheat crop.
@@ -51,10 +51,9 @@ The sample outputs below highlight the DeepLabV3+ model's accuracy on unseen tes
 ## 📊 Interactive Decision Dashboard
 To translate these complex agronomic models into actionable insights, I developed an interactive Tableau dashboard. The dashboard allows stakeholders to explore yield predictions alongside environmental factors and cultivar performance visually.
 
-* **View the Dashboard File:** [Download the Tableau Workbook (.twbx)](dashboard/your_tableau_file_name.twbx)
 * **Watch the Walkthrough:** Click the preview below to watch a full demonstration of the dashboard's features and decision-making capabilities.
 
-[![Dashboard Preview](assets/dashboard_preview.gif)](INSERT_YOUR_YOUTUBE_OR_DRIVE_LINK_HERE)
+[![Dashboard Preview](assets/dashboad.gif)]
 
 ---
 *Project completed as part of the Master of Data Science program at The University of Queensland.*
