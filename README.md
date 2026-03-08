@@ -51,9 +51,10 @@ The sample outputs below highlight the DeepLabV3+ model's accuracy on unseen tes
 ## 📊 Interactive Decision Dashboard
 To translate these complex agronomic models into actionable insights, I developed an interactive Tableau dashboard. The dashboard allows stakeholders to explore yield predictions alongside environmental factors and cultivar performance visually.
 
-* **Watch the Walkthrough:** Click the preview below to watch a full demonstration of the dashboard's features and decision-making capabilities.
+### Dashboard Demonstration
+Below is a walkthrough of the interactive features, including regional yield filtering and cultivar performance analysis:
 
-[![Dashboard Preview](assets/dashboard.gif)]
+![Tableau Dashboard Walkthrough](assets/Dashboard.gif)
 
 ---
 *Project completed as part of the Master of Data Science program at The University of Queensland.*
