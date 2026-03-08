@@ -4,7 +4,7 @@
 ## 📖 Executive Summary
 Wheat contributes to ~20% of global calories and over A$10 billion annually to the Australian economy, yet yield outcomes are highly sensitive to complex, non-linear interactions between climate, cultivars, and management practices. 
 
-This Master of Data Science capstone project bridges the gap between regional environmental data and micro-level plant traits. I developed a dual-pipeline data science system featuring a **Machine Learning yield forecasting model** and a **Computer Vision organ segmentation tool**, wrapped into an interactive dashboard to drive actionable agricultural decision-making.
+This project bridges the gap between regional environmental data and micro-level plant traits. I developed a dual-pipeline data science system featuring a **Machine Learning yield forecasting model** and a **Computer Vision organ segmentation tool**, wrapped into an interactive dashboard to drive actionable agricultural decision-making.
 
 ## 🛠️ Technical Stack
 * **Languages:** Python
